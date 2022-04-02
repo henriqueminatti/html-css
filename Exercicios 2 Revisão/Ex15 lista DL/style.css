@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkgreen;
+    color: white;
+}
+dt#fonte {
+    font-size: 25px;
+    background-color: black;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texto escondido</title>
+</head>
+<style>
+    @font-face {
+        font-family: "romano";
+        src: url("fonte/Roman\ SD.ttf")format("truetype");
+    }
+
+    body {
+        background-color: blueviolet;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    h1 {
+        font-family: romano 
+    }
+    div:hover {
+        color: darkblue;
+    }
+    div > P {
+        display: none;
+    }
+    div:hover > P {
+        display: block;
+        background-color: white;
+        width: 300px;
+    }
+</style>
+<body>
+    <h1>Testando texto escondido</h1>
+    <div> passe o mouse aqui
+        <p>texto escondido</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testes de imagens dinamicas</title>
+</head>
+<body>
+<h1>esse é um exemplo de imagem dinãmica</h1>
+<picture>
+    <source media="(max-width: 570px )" srcset="imagens/foto-rosto-p.jpg">
+    <source media="(max-width: 1050px )" srcset="imagens/foto-rosto-m.jpg">
+    <img src="imagens/foto-rosto-g.jpg" alt="foto de rosto grande">
+</picture>
+<h1>Inserindo áudio</h1>
+<audio controls="controls" autoplay>
+    <source src="midia/audio-teste.mp3" type="audio/mpeg">
+    <source src="midia/audio-teste.ogg" type="audio/ogg">
+    infelizmente seu navegador não suporta HTML5. Faça o download do mp3 abaixo
+    <a href="midia/audio-teste.mp3" download="arquivo mp3">clique aqui para baixar o audio em mp3</a>
+</audio>
+<p>clique abaixo para fazer o download do mp3</p>
+<a href="midia/audio-teste.mp3" download>clique aqui para fazer o download do mp3</a>
+    
+</body>
+</html>
